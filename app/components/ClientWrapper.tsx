@@ -189,7 +189,7 @@ export default function ClientWrapper({
 
         {/* Header */}
         <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-blue-500/20 shadow-lg">
-          <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <div className="container mx-auto px-4 py-4 flex justify-center items-center">
             <div className="flex items-center">
               <div className="relative group">
                 <h1 className="text-3xl font-bold font-montserrat bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text animate-gradient">
@@ -203,30 +203,8 @@ export default function ClientWrapper({
                 </span>
               </div>
             </div>
-            <nav className="hidden md:flex space-x-8">
-              <Link
-                href="#home"
-                className="font-medium text-gray-200 hover:text-blue-400 transition-colors duration-300 relative group"
-              >
-                Home
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-              </Link>
-              <Link
-                href="#about"
-                className="font-medium text-gray-200 hover:text-blue-400 transition-colors duration-300 relative group"
-              >
-                About
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-              </Link>
-              <Link
-                href="#contact"
-                className="font-medium text-gray-200 hover:text-blue-400 transition-colors duration-300 relative group"
-              >
-                Contact
-                <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-              </Link>
-            </nav>
-            <div className="md:hidden">
+
+            <div className="md:hidden absolute right-4">
               {/* Mobile menu button placeholder */}
               <button className="p-2 text-blue-400 hover:text-blue-300 transition-colors duration-300">
                 <svg
