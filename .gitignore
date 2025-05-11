@@ -1,13 +1,2 @@
 node_modules/
 .next/
-out/
-dist/
-build/
-coverage/
-*.log
-*.lock
-*.lock-*
-*.swp
-*.swo
-*.swn
-*.swo.*
